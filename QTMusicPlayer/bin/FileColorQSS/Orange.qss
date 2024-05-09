@@ -1,0 +1,314 @@
+/*背景颜色*/
+QWidget#widget_2
+{
+    background-color: rgb(226,171,18);
+}
+/*QTabWidget 的样式*/
+QTabWidget::pane
+{
+	top:10px;
+    border: none;  
+}
+/*个性推荐*/
+QTabBar::tab
+{ 
+	background:white;
+	border-bottom: 3px solid rgb(255,255,255);
+	font-family:"微软雅黑";
+	font-size:16px;
+	padding-left:5px;
+	padding-right:5px;
+	min-width: 85px;
+	min-height:30px;		
+}
+
+QTabBar::tab:selected
+{
+	border-bottom: 3px solid rgb(226,171,18);
+	color: rgb(55,55,55);
+	font-size:20px;
+	font-weight: bold;
+}
+/*localmusic的样式*/
+QLabel#localLabel
+{
+    font-size: 22px;
+    font-weight: 550;
+    border: transparent;
+}
+
+QLabel#numberlabel
+{
+    font-size: 16px;
+    color: rgb(180,180,180);
+    border: transparent;
+}
+
+QPushButton#selectButton
+{
+    color: #50a7ff;
+    font-size: 16px;
+    border: transparent;
+}
+
+QPushButton#selectButton:hover
+{
+    color: blue;
+    font-size: 16px;
+    border: transparent;
+}
+
+QPushButton#playallBtn
+{
+     background-color: #ffffff;
+    border: 1px solid #dcdfe6;
+    border-radius: 16px;
+    font-size: 16px;
+}
+
+QPushButton#playallBtn:hover
+{
+     background-color: #ecf5ff;
+    color: #409eff;
+    border-radius: 16px;
+    font-size: 16px;
+}
+
+QPushButton#matchMusicbtn
+{
+    background-color:blue;
+    border: 1px solid #dcdcdc;
+    color: black;
+    border-radius: 16px;
+    font-size: 16px;
+}
+
+QPushButton#matchMusicbtn:hover
+{
+   background-color: #ecf5ff;
+    color: #409eff;
+    border-radius: 16px;
+}
+
+QLineEdit#localSearch
+{
+    background-color: #f3f3f3;
+    color: #dcdcdc;
+    border: none;
+    border-radius: 12px;
+    padding-left: 5px;
+}
+
+/*Tab基本的设置*/
+QTabBar#musicInfo_TabBar:tab
+{
+    background: white;
+    border-bottom: 3px solid rgb(255,255,255);
+
+    font-family: "微软雅黑";
+    font-weight: 200;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+
+    font-size: 17px;
+    min-height: 25px;
+    min-width: 50px;
+}
+
+/*Tab选中时*/
+QTabBar#musicInfo_TabBar:tab:selected
+{
+    border-bottom: 3px solid rgb(226,171,18);
+	color: rgb(55,55,55);
+	font-size:20px;
+	font-weight: bold;
+}
+
+
+
+
+/*QTabBar:tab
+{
+    font-size: 16px;
+    min-height: 25px;
+    min-width: 50px;
+}
+
+QTabBar:tab:selected
+{
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    min-height: 25px;
+    min-width: 50px;
+}*/
+
+QScrollBar::vertival
+{
+    background: white;
+    min-width: 5px;
+}
+
+QScrollBar::handle:vertical
+{
+    border-radius: 3px;
+    background-color: #f3f3f3;
+}
+
+QScrollBar::handle:vertical:hover
+{
+
+    border-radius: 3px;
+    background-color: #dcdcdc;
+}
+QScrollBar::horizontal
+{
+    background: white;
+    min-width: 5px;
+}
+
+QScrollBar::handle:horizontal
+{
+    border-radius: 3px;
+    background-color: #f3f3f3;
+}
+
+QScrollBar::handle:horizontal:hover
+{
+
+    border-radius: 3px;
+    background-color: #dcdcdc;
+}
+
+QScrollBar::add-line,QScrollBar::sub-line
+{
+    background:white;
+}
+
+
+
+
+QScrollArea#music_ScrollArea
+{
+    border-left: 0px solid rgb(255,255,255);
+    border-right: 0px solid rgb(255,255,255);
+    border-bottom: 0px solid rgb(255,255,255);
+    border-top: 1px solid rgb(246,246,246);
+}
+
+
+
+QTableWidget#table_music
+{
+    border: 0px;
+    color: rgb(55,55,55);
+    background: rgb(255,255,255);
+    alternate-background-color: rgb(249,249,249);
+    selection-background-color: rgb(220,220,220);
+    selection-color: black;
+
+    border-left: 0px solid rgb(255,255,255);
+    border-right: 0px solid rgb(255,255,255);
+    border-bottom: 0px solid rgb(255,255,255);
+    border-top: 0px solid rgb(249,249,249);
+
+}
+
+QHeaderView::section
+{
+    background: white;
+    color: rgb(55,55,55);
+    border-left: 0px solid rgb(255,255,255);
+    border-right: 0px solid rgb(255,255,255);
+    border-bottom: 1px solid rgb(246,246,246);
+    border-top: 1px solid rgb(246,246,246);
+    padding-left: 3px;
+    padding-right: 10px;
+
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+
+QHeaderView#music_verticalHeader:section
+{
+    background: rgb(255,255,255);
+    border-left: 0px solid rgb(255,255,255);
+    border-right: 0px solid rgb(255,255,255);
+    border-bottom: 0px solid rgb(255,255,255);
+    border-top: 0px solid rgb(255,255,255);
+    padding-left: 15px;
+    padding-right: 10px;
+    text-align: left;
+
+    alternate-background-color: rgb(255,255,255);
+    selection-background-color: rgb(220,220,220);
+}
+
+/*设置列表左上角第0行第0列的那个格子的边框线*/
+QTableCornerButton::section
+{
+    background: white;
+    border-left: 0px solid rgb(255,255,255);
+    border-right: 0px solid rgb(255,255,255);
+    border-bottom: 0px solid rgb(255,255,255);
+    border-top: 0px solid rgb(255,255,255);
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+QMenu
+{
+    background-color: white;
+}
+
+QMenu::item
+{
+    background: white;
+    /*padding: 5px 10px;*/     /*上下，左右内边距*/
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: 3px 3px;
+    font-size: 13px;
+}
+QMenu::icon
+{
+    position: absolute;
+    left: 10px;
+}
+
+
+QMenu::item:hover
+{
+    background-color: rgb(220,220,220);
+
+    color: black;
+}
+
+QMenu::item:selected
+{
+    background-color: rgb(220,220,220);
+
+    color: black;
+}
+
+
+QPushButton#default1Button
+{
+    background-color: white;
+    text-align: left;
+    height: 30px;
+    border: transparent;
+   
+    margin: 3px 3px;
+}
+
+QPushButton#default1Button:checked,#default1Button:hover
+{
+   
+}

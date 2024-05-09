@@ -1,0 +1,104 @@
+
+QDialog
+{
+    background-color: white;
+}
+
+QPushButton#selectDialog_closeButton
+{
+    border-image: url(:/picture/setclose.png);
+    padding-bottom: 10px;
+    border: none;
+    background-color: white;
+}
+
+QListWidget#selectDialog_listPath
+{
+    border : none;
+}
+
+QListWidget#selectDialog_listPath:item
+{
+    color: #2e2e2e;
+    margin: 2px,2px;
+}
+
+QListWidget#selectDialog_listPath:item:selected
+{
+    background-color: white;
+}
+
+/*QListWidgetItem勾选框选中样式*/
+QListWidget#selectDialog_listPath:indicator:checked
+{
+    image: url(:/picture/checked.png);
+
+}
+
+QListWidget#selectDialog_listPath:indicator:unchecked
+{
+    image: url(:/picture/indeterminate.png);
+}
+
+QScrollBar::vertical
+{
+    background: white;
+    min-width: 8px;
+    min-height: 50px;
+}
+
+QScrollBar::handle:vertical
+{
+    background-color: #f3f3f3;
+    min-height: 50px;
+    max-height: 50px;
+    border-radius: 3px;
+
+    padding-left:2px;
+    padding-right:2px;
+}
+
+QScrollBar::handle:vertical:hover
+{
+    background-color: #dcdcdc;
+    min-height: 50px;
+    max-height: 50px;
+    border-radius: 3px;
+
+}
+
+QScrollBar::sub-page:vertical
+{
+    background: white;
+}
+
+QScrollBar::add-page:vertical
+{
+    background: white;
+}
+
+
+QPushButton#selectDialog_confirbtn
+{
+    background-color: #ffffff;
+    border: 1px solid #dcdfe6;
+    border-radius: 5px;
+}
+QPushButton:hover#selectDialog_confirbtn
+ {
+    background-color: #ecf5ff;
+    color: #409eff;
+}
+
+QPushButton#selectDialog_addbtn
+{
+     background-color: #ffffff;
+    border: 1px solid #dcdfe6;
+    border-radius: 5px;
+}
+QPushButton:hover#selectDialog_addbtn
+ {
+    background-color: #ecf5ff;
+    color: #409eff;
+}
+
